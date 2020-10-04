@@ -1,0 +1,18 @@
+@media (max-width: 1000px) {
+    .cats {
+        flex-direction: column;
+    }
+    .face {
+        flex-direction: column;
+    }
+    .cards-face {
+        margin: 20px 0;
+    }
+    .products {
+        flex-direction: column;
+        height: 550px;
+    }
+    .product {
+        margin: 5px;
+    }
+}
