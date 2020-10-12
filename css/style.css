@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Dancing+Script:wght@400;700&display=swap');
 
 /* Variables */
 
 :root {
-    --green-color: #7acc2d;
+    --green-color: #f3d759;
     --white-color: white;
     --black-color: black;
     /* Espaciado */
@@ -28,10 +29,10 @@ body {
 nav {
     display: flex;
     background: var(--green-color);
-    padding: var(--space);
     color: var(--white-color);
     justify-content: space-between;
     align-items: center;
+    padding: 0 60px;
 }
 
 nav ul {
@@ -46,6 +47,7 @@ nav li {
 nav li a {
     color: var(--black-color);
     text-decoration: none;
+    font-size: 17px;
 }
 
 nav li a:hover {
@@ -56,8 +58,17 @@ nav li a:hover {
 /* Main section */
 
 .main_section {
-    padding: 15%;
+    padding: 8%;
     text-align: center;
+}
+
+.main_section .titulo-fadeIn {
+    font-size: 60px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.main_section .fadeIn {
+    font-size: 25px;
 }
 
 .products {
@@ -110,17 +121,24 @@ nav li a:hover {
     text-align: center;
 }
 
+.cards-cats .title-cards {
+    font-size: 35px;
+    font-family: 'Caveat', cursive;
+}
+
+.cards-cats .text-cards {
+    font-size: 17px;
+}
+
 .cards-cats figure img {
     width: 200px;
 }
 
-.figure-cats {
-    height: 300px;
-}
-
-.img-2 {
-    width: 280px !important;
-    margin-bottom: 20px;
+.figure-cats img {
+    height: 270px;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 .content-face {
